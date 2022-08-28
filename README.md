@@ -20,20 +20,22 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 - [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
+
 -------------------------&$
 ## Installation
 
 Rename the .env.example to .env and set the key which can be set in the .env environment file. If you have not copied the .env.example file to a new file named .env, you should do that now.
 
 ```sh
-$ cd nextkul
-$ git clone https://github.com/nextkul/nextkul-web.git
+$ cd mail-article
+$ git clone https://github.com/gautamgupta05/email_article.git
 $ composer install
 $ php artisan key:generate
 $ php artisan config:cache
 $ php artisan cache:clear
 ```
 Note: If the application key is not set, your user sessions and other encrypted data will not be secure!
+
 ------------------------&$
 ## Learning Laravel
 
